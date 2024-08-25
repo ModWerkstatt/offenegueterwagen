@@ -1,0 +1,138 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = {
+			6.95, 1.45, 3.1, 
+		},
+		bbMin = {
+			-6.95, -1.45, 0, 
+		},
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+		
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/geschenke.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/geschenke/geschenk_big1_lod0.msh",
+						name = "schrott",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, 0.8, 0, 1, },
+					},
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/geschenke.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/geschenke/geschenk_big2_lod0.msh",
+						name = "schrott",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.8, -0.8, 0, 1, },
+					},
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/geschenke.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/geschenke/geschenk_big3_lod0.msh",
+						name = "schrott",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.8, 0.8, 0, 1, },
+					},
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/geschenke.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/geschenke/geschenk_long1_lod0.msh",
+						name = "schrott",
+						transf = { 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, -1, -0.6, 0, 1, },
+					},
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/geschenke.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/geschenke/geschenk_long2_lod0.msh",
+						name = "schrott",
+						transf = { 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1.4, -0.5, 0, 1, },
+					},
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/geschenke.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/geschenke/geschenk_long3_lod0.msh",
+						name = "schrott",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.6, 0.5, 0, 1, },
+					},
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/geschenke.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/geschenke/geschenk_rund2_lod0.msh",
+						name = "schrott",
+						transf = { 0.4, 0, 0, 0, 0, 0.4, 0, 0, 0, 0, 1.4, 0, -0.9, 0.4, 0, 1, },
+					},
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/geschenke.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/geschenke/geschenk_rund3_lod0.msh",
+						name = "schrott",
+						transf = { 0.6, 0, 0, 0, 0, 0.6, 0, 0, 0, 0, 1, 0, 5.5, -0.6, 0.35, 1, },
+					},
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/geschenke.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/geschenke/geschenk_Würfel1_lod0.msh",
+						name = "schrott",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.5, 0.8, 0, 1, },
+					},
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/geschenke.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/geschenke/geschenk_Würfel2_lod0.msh",
+						name = "schrott",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0.6, 0, 1, },
+					},
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/geschenke.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/geschenke/geschenk_Würfel3_lod0.msh",
+						name = "schrott",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4, -0.5, 0, 1, },
+					},
+					--- Reihe 2
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/geschenke.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/geschenke/geschenk_rund1_lod0.msh",
+						name = "schrott",
+						transf = { 0.5, 0, 0, 0, 0, 0.5, 0, 0, 0, 0, 0.6, 0, 2.2, 0, 0.45, 1, },
+					},
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/geschenke.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/geschenke/geschenk_rund2_lod0.msh",
+						name = "schrott",
+						transf = { 0.4, 0, 0, 0, 0, 0.4, 0, 0, 0, 0, 1.4, 0, -0.1, 0.8, 0, 1, },
+					},
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/geschenke.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/geschenke/geschenk_big3_lod0.msh",
+						name = "schrott",
+						transf = { 0, 0.4, 0, 0, 0.5, 0, 0, 0, 0, 0, 1, 0, -2.9, -0.6, 0, 1, },
+					},
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/geschenke.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/geschenke/geschenk_Würfel3_lod0.msh",
+						name = "schrott",
+						transf = { 0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 0.3, 0, 0, -0.5, 0.44, 1, },
+					},
+				},
+				transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+			
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1978,
+			yearTo = 0,
+			
+		},
+		cost = {
+			price = 500,
+			
+		},
+		
+	},
+	version = 1,
+	
+}
+end

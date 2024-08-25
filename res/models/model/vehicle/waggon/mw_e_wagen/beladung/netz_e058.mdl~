@@ -1,0 +1,91 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = {
+			6.95, 1.45, 3.1, 
+		},
+		bbMin = {
+			-6.95, -1.45, 0, 
+		},
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+		
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/ladung.mtl", "vehicle/waggon/mw_es_wagen/beladung/netz.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/netz_e058_lod0.msh",
+						name = "schrott",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+		},
+--[[        {
+			node = {
+				children = {
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/ladung.mtl", },
+						mesh = "vehicle/waggon/Facs124/beladung/rueben_lod0.msh",
+						name = "MSH_ootz_50_beladung_1_lod0_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 500,
+			
+		},
+        {
+			node = {
+				children = {
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/ladung.mtl", },
+						mesh = "vehicle/waggon/Facs124/beladung/beladung_2_lod1.msh",
+						name = "MSH_ootz_50_beladung_1_lod0_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 2000,
+			
+		}, ]]
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1978,
+			yearTo = 0,
+			
+		},
+		cost = {
+			price = 500,
+			
+		},
+		
+	},
+	version = 1,
+	
+}
+end

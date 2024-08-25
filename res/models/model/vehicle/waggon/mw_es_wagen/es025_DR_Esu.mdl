@@ -1,0 +1,773 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 4.985, 1.428, 4.5, },
+		bbMin = { -4.985, -1.428, 0, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 10.95, 1.428, 1, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						_meshId = 1,
+						materials = { "vehicle/waggon/mw_es_wagen/rumpf_ES025_DR_Esu.mtl", },
+						mesh = "vehicle/waggon/mw_es_wagen/rumpf_ES025_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 2,
+						materials = { "vehicle/waggon/mw_es_wagen/rumpf_ES025_DR_Esu.mtl", },
+						mesh = "vehicle/waggon/mw_es_wagen/rad_lod0.msh",
+						name = "",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.7, 0, 0.45162, 1, },
+					},
+					{
+						_meshId = 3,
+						materials = { "vehicle/waggon/mw_es_wagen/rumpf_ES025_DR_Esu.mtl", },
+						mesh = "vehicle/waggon/mw_es_wagen/rad_lod0.msh",
+						name = "",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.7, 0, 0.45162, 1, },
+					},
+                    {
+						_meshId = 4,
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+                        name = "zugschluss_de_front",
+    					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.4262, -1.0396, 1.528, 1,	},
+    				},
+                    {
+						_meshId = 5,
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+                        name = "zugschluss_de_front",
+    					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.4262, 1.0396, 1.528, 1,	},
+    				},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+		},
+		{
+			node = {
+				children = {
+					{
+						_meshId = 1,
+						materials = { "vehicle/waggon/mw_es_wagen/rumpf_ES025_DR_Esu.mtl", },
+						mesh = "vehicle/waggon/mw_es_wagen/rumpf_ES025_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 2,
+						materials = { "vehicle/waggon/mw_es_wagen/rumpf_ES025_DR_Esu.mtl", },
+						mesh = "vehicle/waggon/mw_es_wagen/rad_lod1.msh",
+						name = "",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.7, 0, 0.45162, 1, },
+					},
+					{
+						_meshId = 3,
+						materials = { "vehicle/waggon/mw_es_wagen/rumpf_ES025_DR_Esu.mtl", },
+						mesh = "vehicle/waggon/mw_es_wagen/rad_lod1.msh",
+						name = "",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.7, 0, 0.45162, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 300,
+		},
+		{
+			node = {
+				children = {
+					{
+						_meshId = 1,
+						materials = { "vehicle/waggon/mw_es_wagen/rumpf_ES025_DR_Esu.mtl", },
+						mesh = "vehicle/waggon/mw_es_wagen/rumpf_ES025_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 2,
+						materials = { "vehicle/waggon/mw_es_wagen/rumpf_ES025_DR_Esu.mtl", },
+						mesh = "vehicle/waggon/mw_es_wagen/rad_lod2.msh",
+						name = "",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.7, 0, 0.45162, 1, },
+					},
+					{
+						_meshId = 3,
+						materials = { "vehicle/waggon/mw_es_wagen/rumpf_ES025_DR_Esu.mtl", },
+						mesh = "vehicle/waggon/mw_es_wagen/rad_lod2.msh",
+						name = "",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.7, 0, 0.45162, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 300,
+			visibleTo = 1000,
+		},
+		{
+			node = {
+				children = {
+					{
+						_meshId = 1,
+						materials = { "vehicle/waggon/mw_es_wagen/rumpf_ES025_DR_Esu.mtl", },
+						mesh = "vehicle/waggon/mw_es_wagen/rumpf_es_wagen_lod3.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 1000,
+			visibleTo = 2500,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1965,
+			yearTo = 1994,
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("es025_DR_name"),
+            description = _("es025_desc") .. _("Lack_DR"),
+		},
+		maintenance = {
+			runningCosts = -1,
+			lifespan = 29220
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+	    railVehicle = {
+		    configs = {
+			    {
+				    axles = { "vehicle/waggon/mw_es_wagen/rad_lod0.msh", },
+                    frontForwardParts = { },
+                    backForwardParts = { 4, 5 },
+                    frontBackwardParts = { },
+                    backBackwardParts = { },
+                    innerForwardParts = { },
+                    innerBackwardParts = { }
+			    },
+			    {
+				    axles = { "vehicle/waggon/mw_es_wagen/rad_lod1.msh", },
+			    },
+			    {
+				    axles = { "vehicle/waggon/mw_es_wagen/rad_lod2.msh", },
+			    },
+		    },
+		    engines = { },
+		    soundSet = {
+			   name = "mw_altGz",
+		    },
+		    topSpeed = 27.777777778,
+		    weight = 11,
+	    },
+		cargoSlotProvider = {
+			slots = {
+                {
+					models = { "vehicle/waggon/mw_es_wagen/beladung/netz_es025.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					randomId = 0,
+				},
+                --- Stahl ---
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/schrott1.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott2.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott3.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott4.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott5.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott6.mdl",
+                             },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.3, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/schrott1.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott2.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott3.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott4.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott5.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott6.mdl",
+                             },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.45, 1, },
+					randomId = 2,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/schrott1.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott2.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott3.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott4.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott5.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott6.mdl",
+                             },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.6, 1, },
+					randomId = 3,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/schrott1.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott2.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott3.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott4.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott5.mdl",
+                               "vehicle/waggon/mw_es_wagen/beladung/schrott6.mdl",
+                             },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.75, 1, },
+					randomId = 4,
+				},
+                --- Stahl 2 ---
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/kloetze.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.55, 1, },
+					randomId = 5,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/kloetze.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.75, 1, },
+					randomId = 6,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/kloetze.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.95, 1, },
+					randomId = 7,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/kloetze.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.15, 1, },
+					randomId = 8,
+				},
+                --- Stahl 3 ---
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/winkel.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.3, 1, },
+					randomId = 9,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/winkel.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.45, 1, },
+					randomId = 10,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/winkel.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.6, 1, },
+					randomId = 11,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/winkel.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.75, 1, },
+					randomId = 12,
+				},
+				--- Baumaterial ---
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/baustoff.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.3, 1, },
+					randomId = 13,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/baustoff.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.325, 1, },
+					randomId = 14,
+				},	
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/baustoff.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.35, 1, },
+					randomId = 15,
+				},	
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/baustoff.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.375, 1, },
+					randomId = 16,
+				},				
+				--- Getreide ---
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/zuckerrueben.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.3, 1, },
+					randomId = 17,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/zuckerrueben.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.7, 1, },
+					randomId = 18,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/zuckerrueben.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.1, 1, },
+					randomId = 19,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/zuckerrueben.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.45, 1, },
+					randomId = 20,
+				},
+				--- Bretter ---
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/bretter.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.3, 1, },
+					randomId = 21,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/bretter.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.6, 1, },
+					randomId = 22,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/bretter.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.9, 1, },
+					randomId = 23,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/bretter.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.2, 1, },
+					randomId = 24,
+				},
+				--- Bretter 2 ---
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/kantholz.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.3, 1, },
+					randomId = 25,
+				},
+				{
+					models = {"vehicle/waggon/mw_es_wagen/beladung/kantholz.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.5, 1, },
+					randomId = 26,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/kantholz.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.7, 1, },
+					randomId = 27,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/kantholz.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.9, 1, },
+					randomId = 28,
+				},
+				--- Holz ---
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/holz.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.3, 1, },
+					randomId = 29,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/holz.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.65, 1, },
+					randomId = 30,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/holz.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2, 1, },
+					randomId = 31,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/holz.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.35, 1, },
+					randomId = 32,
+				},
+				--- Holz 2 ---
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/staemme.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.3, 1, },
+					randomId = 33,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/staemme.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.4, 1, },
+					randomId = 34,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/staemme.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.5, 1, },
+					randomId = 35,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/staemme.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.6, 1, },
+					randomId = 36,
+				},
+				--- Kohle ---
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/kohle.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.3, 1, },
+					randomId = 37,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/kohle.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.6, 1, },
+					randomId = 38,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/kohle.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.9, 1, },
+					randomId = 39,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/kohle.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.3, 1, },
+					randomId = 40,
+				},
+				--- Erz ---
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/erz.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.3, 1, },
+					randomId = 41,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/erz.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.6, 1, },
+					randomId = 42,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/erz.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.9, 1, },
+					randomId = 43,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/erz.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.3, 1, },
+					randomId = 44,
+				},
+				--- Stein ---
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/stein.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.3, 1, },
+					randomId = 45,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/stein.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.6, 1, },
+					randomId = 46,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/stein.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.9, 1, },
+					randomId = 47,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/stein.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.3, 1, },
+					randomId = 48,
+				},
+				--- Plastik ---
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/reifen.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.35, 1, },
+					randomId = 49,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/reifen.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.6, 1, },
+					randomId = 50,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/reifen.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.85, 1, },
+					randomId = 51,
+				},
+				{
+					models = { "vehicle/waggon/mw_es_wagen/beladung/reifen.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.1, 1, },
+					randomId = 52,
+				},
+            },
+        },
+	    transportVehicle = {
+		    carrier = "RAIL",
+		    compartments = {
+				{
+					{
+						{
+							capacity = 36,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 1, 0 },
+											{ 2, 0 },	
+											{ 3, 0 },
+											{ 4, 0 },	
+										},
+									},
+                                    {
+                                        slotLevels = {
+											{ },
+											{ 5, 0 },
+											{ 6, 0 },	
+											{ 7, 0 },
+											{ 8, 0 },												
+										},
+									},
+                                    {
+                                        slotLevels = {
+											{ },
+											{ 9 },
+											{ 10 },	
+											{ 11 },
+											{ 12 },												
+										},
+									},									
+								},
+							},
+							type = "STEEL",
+						},
+					},
+					{
+						{
+							capacity = 36,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 13 },
+											{ 14 },	
+											{ 15 },
+											{ 16 },										
+										},
+									},									
+								},
+							},
+							type = "CONSTRUCTION_MATERIALS",
+						},
+					},
+					{
+						{
+							capacity = 36,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 17 },
+											{ 18 },	
+											{ 19 },
+											{ 20 },											
+										},
+									},									
+								},
+							},
+							type = "GRAIN",
+						},
+					},
+					{
+						{
+							capacity = 36,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 21 },
+											{ 22 },	
+											{ 23 },
+											{ 24 },											
+										},
+									},
+                                    {
+                                        slotLevels = {
+											{ },
+											{ 25 },
+											{ 26 },	
+											{ 27 },
+											{ 28 },												
+										},
+									},									
+								},
+							},
+							type = "PLANKS",
+						},
+					},
+					{
+						{
+							capacity = 36,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 29 },
+											{ 30 },	
+											{ 31 },
+											{ 32 },											
+										},
+									},
+                                    {
+                                        slotLevels = {
+											{ },
+											{ 33 },
+											{ 34 },	
+											{ 35 },
+											{ 36 },												
+										},
+									},									
+								},
+							},
+							type = "LOGS",
+						},
+					},
+					{
+						{
+							capacity = 36,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 37 },
+											{ 38 },	
+											{ 39 },
+											{ 40 },											
+										},
+									},									
+								},
+							},
+							type = "COAL",
+						},
+					},
+					{
+						{
+							capacity = 36,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 41 },
+											{ 42 },	
+											{ 43 },
+											{ 44 },											
+										},
+									},									
+								},
+							},
+							type = "IRON_ORE",
+						},
+					},
+					{
+						{
+							capacity = 36,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 45 },
+											{ 46 },	
+											{ 47 },
+											{ 48 },											
+										},
+									},									
+								},
+							},
+							type = "STONE",
+						},
+					},
+					{
+						{
+							capacity = 36,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 49 },
+											{ 50 },	
+											{ 0, 51 },
+											{ 0, 52 },											
+										},
+									},									
+								},
+							},
+							type = "PLASTIC",
+						},
+					},
+                },
+		    },
+		    loadSpeed = 2,
+		    maxVolume = 36,
+		    maxWeight = 28,
+		    multipleUnitOnly = false,
+		    reversible = false,
+            groupFileName = "vehicle/waggon/mw_es_wagen/menu_es_wagen.mdl",
+	    },
+    },
+    version = 1,
+}
+end

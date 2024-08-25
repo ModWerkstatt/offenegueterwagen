@@ -1,0 +1,28 @@
+function data()
+return {
+	order = 0,
+	params = {
+		emissive_scale = {
+			emissiveScale = { 100, 100, 100, },
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_emissive = {
+			fileName = "models/vehicle/waggon/mw_e_wagen/lichterkette_albedo.dds",
+			type = "TWOD",
+		},
+		polygon_offset = {
+			factor = -1,
+			forceDepthWrite = false,
+			units = -1,
+		},
+		two_sided = {
+			flipNormal = false,
+			twoSided = false,
+		},
+	},
+	type = "EMISSIVE",
+}
+end

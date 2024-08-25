@@ -1,0 +1,95 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = {
+			6.95, 1.45, 3.1, 
+		},
+		bbMin = {
+			-6.95, -1.45, 0, 
+		},
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+		
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/ladung3.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/kloetze_13m_lod0.msh",
+						name = "schrott",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.3, 1, },
+					},
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+			
+		},
+		{
+			node = {
+				children = {
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/ladung3.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/kloetze_13m_lod1.msh",
+						name = "schrott",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.3, 1, },
+					},
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 300,
+			
+		},
+		{
+			node = {
+				children = {
+					{						
+						materials = { "vehicle/waggon/mw_es_wagen/beladung/ladung3.mtl", },
+						mesh = "vehicle/waggon/mw_e_wagen/beladung/kloetze_13m_lod2.msh",
+						name = "schrott",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.3, 1, },
+					},
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 300,
+			visibleTo = 1000,
+			
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1978,
+			yearTo = 0,
+			
+		},
+		cost = {
+			price = 500,
+			
+		},
+		
+	},
+	version = 1,
+	
+}
+end
