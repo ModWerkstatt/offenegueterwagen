@@ -918,26 +918,6 @@ return {
 									},
 									{
 										slotLevels = {
-											{ 7 },											
-										},
-									},	
-									{
-										slotLevels = {
-											{ 11 },											
-										},
-									},	
-									{
-										slotLevels = {
-											{ 15 },											
-										},
-									},	
-									{
-										slotLevels = {
-											{ 19 },											
-										},
-									},	
-									{
-										slotLevels = {
 											{ 20 },											
 										},
 									},	
